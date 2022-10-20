@@ -1,7 +1,7 @@
 import socket
 
 sock = socket.socket()
-sock.bind(('localhost', 25565))
+sock.bind(('localhost', 7777))
 sock.listen(1)
 conn, addr = sock.accept()
 while True:
